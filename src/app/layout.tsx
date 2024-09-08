@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={playfair.className}>
-      <div className="min-h-screen border-8 md:border-[50px] border-emerald-950">
+      <div className="min-h-screen border-2 md:border-[50px] border-emerald-950">
       <header className="flex items-center w-full bg-white text-sm py-16 dark:bg-neutral-800">
         <nav className="max-w-[85rem] w-full mx-auto flex items-center justify-between px-4">
          <div className="flex flex-grow justify-center gap-16">
