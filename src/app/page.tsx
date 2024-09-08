@@ -16,7 +16,7 @@ export default function Home() {
       }}
     >
       <div className="text-3xl flex justify-start p-24">
-        Hi there, I'm Matthew Lee, BE(Hons)/BSc(Computer Science).<br />
+        Hi there, I&aposm Matthew Lee, BE(Hons)/BSc(Computer Science).<br />
         Please take a look at some of my work below.
       </div>
       <div className="flex-grow flex flex-col items-center">
