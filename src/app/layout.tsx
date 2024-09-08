@@ -25,6 +25,8 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={playfair.className}>
+      <div className="min-h-screen border-8 border-emerald-950"
+      style={{ borderWidth: '50px' }} >
       <header className="flex items-center w-full bg-white text-sm py-16 dark:bg-neutral-800">
         <nav className="max-w-[85rem] w-full mx-auto flex items-center justify-between px-4">
          <div className="flex flex-grow justify-center gap-16">
@@ -35,7 +37,7 @@ export default function RootLayout({
         </nav>
       </header>
         {children}
-
+        </div>
       </body>
       <PrelineScript/>
     </html>
