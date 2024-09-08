@@ -10,7 +10,7 @@ export default function page() {
   </h3>
   <p className="mt-1 text-gray-800 text-2xl">
     Inspired by sci-fi books, and motivated by a friend, I set out to create a website that would allow us to market and sell
-    a magic-mirror we'd thrown together.
+    a magic-mirror we&aposd thrown together.
   </p>
 
   {/* Space below the text */}
@@ -26,11 +26,11 @@ export default function page() {
   </div>
   <div className="mt-12 text-center mx-auto max-w-4xl">
     <p className="mb-10 text-gray-700 text-2xl">
-      This was immediately a hard task as I'd never really touched webDev before. After a bit of research I settled on using NextJs
+      This was immediately a hard task as I&aposd never really touched webDev before. After a bit of research I settled on using NextJs
       and Firebase for authentication. After a harrowing week full of chat gpt, stack overflow, and youtube, I had a functional login system.
       Throughout this process I learnt a huge range of skills, beginning with UI components. Having never touched CSS or HTML before I began 
-      the painstaking process of placing and moving div's. Finally making a box in the middle of the screen in what seemed to be the least intuitive
-      coding language I'd ever used, I began to work on authentication. Authentication made all the boxes seem easy in comparison. With a lot of help from 
+      the painstaking process of placing and moving div&aposs. Finally making a box in the middle of the screen in what seemed to be the least intuitive
+      coding language I&aposd ever used, I began to work on authentication. Authentication made all the boxes seem easy in comparison. With a lot of help from 
       youtube however, I managed to set up a user login system with Firebase.
     </p>
 
@@ -66,7 +66,7 @@ export default function page() {
 
 
 
-    <p className="mb-6 mt-5 text-gray-700 text-2xl">
+    <p className="mb-6 mt-5 text-gray-700">
       Third paragraph of text, which continues the explanation.
     </p>
     <div className="w-full">
