@@ -36,7 +36,7 @@ export default function Home() {
         </a>
 
        {/* Small Cards */}
-        <div className="grid grid-cols-2 gap-x-10 gap-y-20 mt-40 mb-8 w-[80%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-20 mt-40 mb-8 w-[80%]">
           <a href="/target-page-2" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
             <div className="p-16 border-4 border-emerald-950 rounded-lg overflow-hidden">
             <img className="w-full h-auto rounded-xl" src="/content/sbm.jpg" alt="Card Image"/>
