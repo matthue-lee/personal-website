@@ -25,13 +25,13 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={playfair.className}>
-      <div className="min-h-screen border-2 md:border-[50px] border-emerald-950">
-      <header className="flex items-center w-full bg-white text-sm py-16 dark:bg-neutral-800">
-        <nav className="max-w-[85rem] w-full mx-auto flex items-center justify-between px-4">
-         <div className="flex flex-grow justify-center gap-16">
-            <a className="font-medium text-2xl text-blue-500 focus:outline-none" href="/" aria-current="page">Home</a>
-            <a className="font-medium text-2xl text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="#">Photography</a>
-            <a className="font-medium text-2xl text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="#">Contact</a>
+      <div className="min-h-screen md:border-[50px] md:border-emerald-950 bg-white">
+      <header className="flex items-center w-full bg-white text-sm py-16 md:dark:bg-neutral-800">
+        <nav className="max-w-[85rem] w-full mx-auto flex items-center justify-between px-4 sm:px-2">
+         <div className="flex flex-grow justify-center gap-4 md:gap-16">
+            <a className="font-medium text-lg md:text-2xl  text-blue-500 focus:outline-none" href="/" aria-current="page">Home</a>
+            <a className="font-medium text-lg md:text-2xl  text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="#">Photography</a>
+            <a className="font-medium text-lg md:text-2xl  text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="#">Contact</a>
           </div>
         </nav>
       </header>

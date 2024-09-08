@@ -3,7 +3,7 @@ import CodeBlock from '../../components/codeBlock'
 
 export default function page() {
   return (
-<div className="md:p-5 bg-white">
+<div className="md:p-5 bg-white px-2">
   {/* Text Section */}
   <h3 className="font-bold text-gray-800 bg-white text-4xl">
     Magic-Mirror
@@ -17,7 +17,7 @@ export default function page() {
   <div className="my-24"></div>
 
   {/* Full width image container */}
-  <div className="w-full">
+  <div className="w-full overflow-hidden">
     <img
       className="w-full h-auto"
       src="/images/coloredMirror.jpg"
@@ -45,14 +45,14 @@ export default function page() {
 
     {/* Images container */}
     <div className="md:w-1/3">
-      <div className="w-[100vw] md:w-full">
+      <div className="w-[100vw] md:w-full overflow-hidden">
         <img
           className="w-full h-auto rounded-lg"
           src="/images/gantt.jpg"
           alt="First Image"
         />
         <img
-          className="w-full h-auto rounded-lg mt-4"
+          className="w-full h-auto rounded-lg mt-4 overflow-hidden"
           src="/images/board.png"
           alt="Second Image"
         />
@@ -72,12 +72,7 @@ export default function page() {
     <div className="w-full">
   <pre className="bg-gray-100 p-4 rounded font-mono text-sm text-gray-800 text-left w-full">
     {`
-        <a href="/magic-mirror" className="relative block bg-white border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105 w-[60%] z-10">
-          <img className="w-full h-auto rounded-xl" src="/content/smartmirror.png" alt="Card Image"/>
-          <div className="absolute top-0 left-0 right-0">
-            <div className="p-4 md:p-5">
-              <h3 className="text-lg font-bold text-gray-800">
-                Magic-Mirror
+    AFS;DLKFA;LSKDJF CODE
     `}
   </pre>
 </div>
