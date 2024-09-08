@@ -47,7 +47,7 @@ export default function Home() {
                   Spectral Analysis
                 </h3>
                 <p className="mt-1 text-gray-300">
-                  A foray into machine learning and SVM's
+                  A foray into machine learning and SVM&aposs
                 </p>
               </div>
             </div>
