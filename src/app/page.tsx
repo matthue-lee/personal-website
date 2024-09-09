@@ -1,11 +1,12 @@
-import Image from "next/image";
 import { Playfair } from "next/font/google";
-import Link from "next/link";
-import 'prismjs/themes/prism.css'; // Import PrismJS default theme
+import type { Metadata } from "next";
 
 const playfair = Playfair({ subsets: ["latin"] });
 
-
+export const metadata: Metadata = {
+  title: "Portfolio - Matthew Lee",
+  description: "Created by Matthew Lee",
+};
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       }}
     >
       <div className="text-xl md:text-3xl flex justify-start p-5 md:p-24 text-gray-950">
-        Hi there, I&aposm Matthew Lee, BE(Hons)/BSc(Computer Science).<br />
+        Hi there, I&#39;m Matthew Lee, BE(Hons)/BSc(Computer Science).<br />
         Please take a look at some of my work below.
       </div>
       <div className="flex-grow flex flex-col items-center">
@@ -47,7 +48,7 @@ export default function Home() {
                   Spectral Analysis
                 </h3>
                 <p className="mt-1 text-gray-300">
-                  A foray into machine learning and SVM&aposs
+                  A foray into machine learning and SVM&#39;s
                 </p>
               </div>
             </div>

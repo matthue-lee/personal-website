@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.arial-font {
+  font-family: Arial, sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +35,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
 }
