@@ -69,7 +69,7 @@ export default function Home() {
               </div>
             </div>
           </a>
-          <a href="/target-page-4" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
+          <a href="/holography" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
           <div className="p-16 border-4 border-emerald-950 rounded-lg overflow-hidden">
             <img className="w-full h-auto rounded-xl" src="/content/p4p.png" alt="Card Image"/>
             </div>

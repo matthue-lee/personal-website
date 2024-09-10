@@ -41,9 +41,9 @@ export default function RootLayout({
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
                   pathname === '/photography' ? 'text-emerald-800' : 'text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
-                href="/photography"
+                href="/cover-letter"
               >
-                Photography
+                About me
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
