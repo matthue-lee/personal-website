@@ -65,7 +65,7 @@ export default function RootLayout({
             {/* Logo Container */}
             <div className="flex-shrink-0 ml-auto">
               <img
-                className="h-16 w-auto pulse-animation" // Doubled the size from h-8 to h-16
+                className="h-16 w-auto pulse-animation hidden sm:block" // Doubled the size from h-8 to h-16
                 src="/images/logo3.png"
                 alt="Logo"
               />

@@ -1,11 +1,12 @@
-'use client';
+'use client'
+import React, { useEffect } from 'react'
+import Carousel from '../../components/Carousel'
 
-import Accordion from '../../components/accordion';
 
-const Page = () => {
+export default function page() {
   return (
-    <Accordion />
-  );
-};
-
-export default Page;
+    <>
+      <Carousel />
+    </>
+  )
+}

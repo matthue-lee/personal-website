@@ -17,6 +17,8 @@
     "@nextui-org/theme": "^2.2.9",
     "@preline/accordion": "^2.4.1",
     "@preline/collapse": "^2.4.1",
+    "embla-carousel": "^8.2.1",
+    "embla-carousel-react": "^8.2.1",
     "framer-motion": "^11.4.0",
     "next": "14.2.7",
     "preline": "^2.4.1",
