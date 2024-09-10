@@ -22,19 +22,31 @@ export default function Home() {
       </div>
       <div className="flex-grow flex flex-col items-center">
         {/* Large Card */}
-        <a href="/magic-mirror" className="relative block bg-white border shadow-sm rounded-xl p-4 cursor-pointer transform transition-transform duration-300 hover:scale-105 w-full md:w-[60%] z-10">
-    <img className="w-full h-auto rounded-xl" src="/content/smartmirror.png" alt="Card Image"/>
-    <div className="absolute top-0 left-0 right-0">
-      <div className="p-4 md:p-5">
-        <h3 className="text-lg font-bold text-gray-800">
-          Magic-Mirror
-        </h3>
-        <p className="mt-1 text-gray-800">
-          A fullstack development learning experience.
-        </p>
-      </div>
-    </div>
-  </a>
+        <a 
+          href="/magic-mirror" 
+          className="relative block bg-white border shadow-sm rounded-xl p-4 cursor-pointer transform transition-transform duration-300 hover:scale-105 w-full md:w-[60%] z-10"
+        >
+          <div className="flex flex-col h-full">
+            <div className="flex-grow">
+              <img 
+                className="w-full max-h-[300px] object-cover rounded-xl" 
+                src="/content/smartmirror.png" 
+                alt="Card Image"
+              />
+            </div>
+            <div className="absolute inset-0 flex items-end justify-center p-4 bg-gradient-to-t from-black via-transparent to-transparent rounded-xl">
+              <div className="text-center text-white">
+                <h3 className="text-lg font-bold">
+                  Magic-Mirror
+                </h3>
+                <p className="mt-1">
+                  A fullstack development learning experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
 
        {/* Small Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-20 mt-40 mb-8 w-[80%]">
