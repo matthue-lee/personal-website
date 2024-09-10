@@ -50,13 +50,13 @@ export default function Page() {
           full-stack web development over the course of the last month. With
           this process I&#39;ve created two websites, one for a magic-mirror
           project I&#39;m working on, and another for a personal portfolio,
-          which you're looking at right now (so please forgive me if it's not
-          completely polished as it's still a WIP)
+          which you&#39;re looking at right now (so please forgive me if it&#39;s not
+          completely polished as it&#39;s still a WIP)
         </p>
         <p className="mt-4">
           As you can see, when I&#39;m passionate about an activity, I am
           willing to work hard towards it. Thank you for taking the time to read this,
-          and please don't hesitate to get in touch if you think I'd be a good fit 
+          and please don&#39;t hesitate to get in touch if you think I&#39;d be a good fit 
           for your team
         </p>
         <p className="mt-4">
