@@ -11,6 +11,8 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@headlessui/react": "^2.1.6",
+    "@heroicons/react": "^2.1.5",
     "@mui/material": "^6.0.2",
     "@nextui-org/navbar": "^2.0.36",
     "@nextui-org/system": "^2.2.5",
@@ -20,6 +22,7 @@
     "embla-carousel": "^8.2.1",
     "embla-carousel-react": "^8.2.1",
     "framer-motion": "^11.4.0",
+    "heroicons": "^2.1.5",
     "next": "14.2.7",
     "preline": "^2.4.1",
     "prismjs": "^1.29.0",
