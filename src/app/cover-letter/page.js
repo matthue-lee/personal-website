@@ -23,7 +23,7 @@ export default function Page() {
           C++, Python, R, LabView, ARDUINO, and HTML.
         </p>
         <p className="mt-4">
-          I also spent my last summer working for Allsite.AI, a small startup
+          I also spent the summer of 2023 working for Allsite.AI, a small startup
           specialising in creating a generative AI to speed up the site
           development process. In this role I worked primarily in Python, with
           some time spent in C++. I also had the opportunity to gain a number of
@@ -42,7 +42,11 @@ export default function Page() {
           I will use to benefit your workplace. Alongside being Club Captain of
           the Snowsports Club, I founded the Surf Club. As Club Captain of the
           Snowsports club I&#39;m in charge of organising events for our 600+
-          members, while the surf club I founded already has over 100 members.
+          members, while the surf club I founded already has over 100 members. These two 
+          roles I held from 2020-2024 gave me the opportunity to improve my organisation and 
+          communication skills, as well as practice effective time management as I juggled
+          the responsibilities of Uni, work, and the clubs. 
+
         </p>
         <p className="mt-4">
           Please take a look at my Github, as I believe it showcases my strong
@@ -54,8 +58,8 @@ export default function Page() {
           completely polished as it&#39;s still a WIP)
         </p>
         <p className="mt-4">
-          As you can see, when I&#39;m passionate about an activity, I am
-          willing to work hard towards it. Thank you for taking the time to read this,
+          I&#39;m a passionate and hard worker, and am keen to use my skills to positively
+          benefit your workplace. Thank you for taking the time to read this,
           and please don&#39;t hesitate to get in touch if you think I&#39;d be a good fit 
           for your team
         </p>

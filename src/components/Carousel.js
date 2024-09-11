@@ -1,13 +1,39 @@
 // components/Carousel.js
-import React, { useCallback } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
-import '../css/embla.css' // Adjust the path to your CSS
+import React, { useCallback, useEffect, useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import '../css/embla.css'; // Adjust the path to your CSS
 
 const Carousel = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [dots, setDots] = useState([]);
 
-  const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi])
-  const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi])
+  const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    // Initialize dots
+    const slides = emblaApi.slideNodes();
+    const newDots = slides.map((_, index) => ({
+      active: false,
+      index
+    }));
+    setDots(newDots);
+
+    const updateDots = () => {
+      const index = emblaApi.selectedScrollSnap();
+      setDots(prevDots =>
+        prevDots.map(dot => ({
+          ...dot,
+          active: dot.index === index
+        }))
+      );
+    };
+
+    updateDots(); // Initial update
+    emblaApi.on('select', updateDots); // Update dots on slide change
+  }, [emblaApi]);
 
   return (
     <section className="embla">
@@ -45,8 +71,18 @@ const Carousel = () => {
           Next
         </button>
       </div>
-    </section>
-  )
-}
 
-export default Carousel
+      <div className="embla__dots">
+        {dots.map(dot => (
+          <button
+            key={dot.index}
+            className={`embla__dot ${dot.active ? 'embla__dot--active' : ''}`}
+            onClick={() => emblaApi.scrollTo(dot.index)}
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Carousel;

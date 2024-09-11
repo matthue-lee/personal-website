@@ -25,8 +25,8 @@
 }
 
 .embla__slide__img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 90%;
+  max-height: 90%;
   object-fit: cover;
   border-radius: 15px; /* Adjust this value for the desired roundness */
   position: relative; /* Ensure images are properly positioned */
@@ -37,7 +37,7 @@
 
 .embla__controls {
   position: absolute;
-  bottom: 10px; /* Space from the bottom to avoid overlap */
+  bottom:   10px; /* Space from the bottom to avoid overlap */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -50,7 +50,7 @@
   background: #fff;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 0 5px; /* Add space between buttons */
 }
 
@@ -59,3 +59,17 @@
   justify-content: center;
   margin-top: 10px;
 }
+
+.embla__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3); /* Default dot color */
+  margin: 0 5px; /* Space between dots */
+  cursor: pointer;
+}
+
+.embla__dot--active {
+  background-color: #78716c; /* Active dot color */
+}
+

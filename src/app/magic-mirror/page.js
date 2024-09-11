@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useRef, useEffect, useCallback} from 'react';
+import Carousel from '../../components/Carousel'
 import '../globals.css'
 
 export default function Page() {
@@ -276,7 +277,7 @@ export default function Page() {
       </div>
 
         {/* Fourth paragraph */}
-      <p className="mb-20 mt-36 md:px-10 text-gray-700 text-lg md:text-2xl">
+      <p className="mb-5 mt-36 md:px-10 text-gray-700 text-lg md:text-2xl">
           The next move for me after setting up the linked accounts was to make a landing page so people would be able to look at our product.
           It probably wasn&#39;t entirely necessary as we don&#39;t intend to market as a product online any time soon, but I figured
           that it would be a good opportunity to learn some more design oriented dev skills. I figured out my way around Preline, NextUI,
@@ -284,6 +285,7 @@ export default function Page() {
         </p>
 
       {/* CAROUSEL */}
+      <Carousel/>
 
       </div>
 
