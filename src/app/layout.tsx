@@ -25,13 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className={playfair.className}>
-      <div className="min-h-screen md:border-[50px] md:border-emerald-950 bg-white">
+      <div className="min-h-screen md:border-[30px] md:border-additional bg-white">
         <header className="flex items-center w-full bg-white text-sm py-16 md:dark:bg-neutral-800">
           <nav className="max-w-[85rem] w-full mx-auto flex items-center justify-between px-4 sm:px-2">
             <div className="flex flex-grow justify-center gap-4 md:gap-16">
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/' ? 'text-emerald-800' : 'text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/"
               >
@@ -39,7 +39,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/photography' ? 'text-emerald-800' : 'text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/cover-letter' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/cover-letter"
               >
@@ -47,7 +47,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/modelling' ? 'text-emerald-800' : 'text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/modelling' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/modelling"
               >
@@ -55,7 +55,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/contact' ? 'text-emerald-800' : 'text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/contact' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/contact"
               >

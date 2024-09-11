@@ -11,6 +11,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-pal-1: #c2b2a5;
+  --color-pal-2: #7a8b65;
+  --color-pal-3: #424f35;
+  --color-pal-4: #25312f;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -65,4 +70,20 @@ body {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+
+/* for the modelling page to aling the text and images */
+/* Add these styles to your CSS file or within a <style> block */
+.flex-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the flex container */
+  gap: 20px; /* Adjust the gap between the text and images as needed */
+}
+
+.text-container {
+  flex: 1; /* Allow the text container to grow if needed */
+}
+
+.grid {
+  flex: 2; /* Allow the grid to take up more space */
 }

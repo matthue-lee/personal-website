@@ -13,7 +13,7 @@ export default function Home() {
     <main
       className="flex flex-col min-h-screen overflow-hidden"
       style={{
-        background: "linear-gradient(to bottom, #ffffff 44%, #d6d3d1 44%)",
+        background: "linear-gradient(to bottom, #ffffff 40%, #d6d3d1 40%)",
       }}
     >
       <div className="text-xl md:text-3xl flex justify-start p-5 md:p-24 text-gray-950">

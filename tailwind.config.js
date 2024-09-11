@@ -1,6 +1,12 @@
 module.exports = {
     theme: {
         extend: {
+          colors: {
+            primary: '#9a9385',
+            secondary: '#a3c1b4',
+            accent: '#7a8b65',
+            additional: '#25312f'
+          },
           fontFamily: {
             body: ['playfairDisplay', 'sans-serif'],
           },
