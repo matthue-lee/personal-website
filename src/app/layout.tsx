@@ -31,7 +31,7 @@ export default function RootLayout({
             <div className="flex flex-grow justify-center gap-4 md:gap-16">
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/"
               >
@@ -39,7 +39,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/cover-letter' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/cover-letter' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/cover-letter"
               >
@@ -47,7 +47,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/modelling' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/modelling' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/modelling"
               >
@@ -55,7 +55,7 @@ export default function RootLayout({
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/contact' ? 'text-accent' : 'text-gray-600 hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/contact' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/contact"
               >

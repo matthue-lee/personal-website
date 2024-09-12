@@ -51,7 +51,7 @@ export default function Home() {
        {/* Small Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-20 mt-40 mb-8 w-[80%]">
           <a href="/spectral-analysis" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
-            <div className="p-16 border-4 border-emerald-950 rounded-lg overflow-hidden">
+            <div className="p-20 border-4 border-emerald-950 rounded-lg overflow-hidden">
             <img className="w-full h-auto rounded-xl" src="/content/sbm.jpg" alt="Card Image"/>
             </div>
             <div className="absolute top-0 left-0 right-0">
@@ -66,8 +66,8 @@ export default function Home() {
             </div>
           </a>
           <a href="/underactuated-gripper" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
-          <div className="p-16 border-4 border-emerald-950 rounded-lg overflow-hidden">
-            <img className="w-full h-auto rounded-xl" src="/content/gipper 1.jpg" alt="Card Image"
+          <div className="p-20 border-4 border-emerald-950 rounded-lg overflow-hidden">
+            <img className="w-full h-auto rounded-xl" src="/content/full assembly.png" alt="Card Image"
             style={{ maxHeight: '300px' }}/>
           </div>
             <div className="absolute top-0 left-0 right-0">
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </a>
           <a href="/holography" className="relative block bg-emerald-950 border shadow-sm rounded-xl p-4 dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 cursor-pointer transform transition-transform duration-300 hover:scale-105">
-          <div className="p-16 border-4 border-emerald-950 rounded-lg overflow-hidden">
+          <div className="p-20 border-4 border-emerald-950 rounded-lg overflow-hidden">
             <img className="w-full h-auto rounded-xl mt-5" src="/content/p4p.png" alt="Card Image"/>
             </div>
             <div className="absolute top-0 left-0 right-0">

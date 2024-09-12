@@ -76,14 +76,14 @@ body {
 /* Add these styles to your CSS file or within a <style> block */
 .flex-container {
   display: flex;
-  align-items: flex-start; /* Align items at the start of the flex container */
-  gap: 20px; /* Adjust the gap between the text and images as needed */
+  align-items: flex-start; /* Align items to the start of the container */
+  gap: 20px; /* Adjust the gap between the text and image if needed */
 }
 
 .text-container {
   flex: 1; /* Allow the text container to grow if needed */
 }
 
-.grid {
-  flex: 2; /* Allow the grid to take up more space */
+.image-container {
+  flex: 1; /* Allow the image container to grow if needed */
 }
