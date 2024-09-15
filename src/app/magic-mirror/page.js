@@ -34,7 +34,7 @@ export default function Page() {
 
 
   return (
-    <div className="md:p-10 bg-white px-2 arial-font">
+    <div className="md:p-10 bg-white px-2 ">
       {/* Text Section */}
       <h3 className="font-bold text-gray-800 bg-white text-4xl">
         Magic-Mirror

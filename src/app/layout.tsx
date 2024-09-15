@@ -35,15 +35,15 @@ export default function RootLayout({
                 }`}
                 href="/"
               >
-                Home
+                Projects
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
-                  pathname === '/cover-letter' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  pathname === '/about' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
-                href="/cover-letter"
+                href="/about"
               >
-                About me
+                About
               </a>
               <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
@@ -53,14 +53,14 @@ export default function RootLayout({
               >
                 Modelling
               </a>
-              <a
+              {/* <a
                 className={`font-medium text-lg md:text-2xl focus:outline-none ${
                   pathname === '/contact' ? 'text-accent' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
                 }`}
                 href="/contact"
               >
                 Contact
-              </a>
+              </a> */}
             </div>
             {/* Logo Container */}
             <div className="flex-shrink-0 ml-auto">
@@ -73,8 +73,29 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
+        <footer className="w-full bg-stone-100 py-8 mt-8">
+            <div className="max-w-[85rem] w-full mx-auto text-center">
+              <p className="text-gray-600">
+                © {new Date().getFullYear()} Matthew Lee. All Rights Reserved.
+              </p>
+              <div className="mt-4 flex justify-center gap-4">
+                <a href="https://github.com/matthue-lee" target="_blank" className="text-primary hover:text-accent">
+                  GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/matthew-lee-93a73b15b/" target="_blank" className="text-primary hover:text-accent">
+                  LinkedIn
+                </a>
+                {/* Add other social links if needed */}
+              </div>
+            </div>
+          </footer>
+        <PrelineScript/>
       </div>
     </body>
   </html>
     );
   }
+
+
+
+  // new menu
