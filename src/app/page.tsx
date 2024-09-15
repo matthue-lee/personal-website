@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex flex-col h-full">
             <div className="flex-grow">
               <img 
-                className="w-full max-h-[300px] object-cover rounded-xl" 
+                className="w-full max-h-[500px] object-cover rounded-xl" 
                 src="/content/smartmirror.png" 
                 alt="Card Image"
               />
