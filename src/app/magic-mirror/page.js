@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect, useCallback} from 'react';
 import Carousel from '../../components/Carousel'
 import '../globals.css'
+import { source_serif, oswald } from '../fonts';
 
 export default function Page() {
 
@@ -34,9 +35,9 @@ export default function Page() {
 
 
   return (
-    <div className="md:p-10 lg:p-16 bg-white px-2 ">
+    <div className={`${source_serif.className} md:p-10 lg:p-16 bg-white px-2`}>
       {/* Text Section */}
-      <h3 className="font-bold text-gray-800 bg-white text-4xl">
+      <h3 className={`${oswald.className} font-bold text-gray-800 bg-white text-4xl`}>
         Magic-Mirror
       </h3>
       <p className="mt-1 text-gray-800 text-lg md:text-2xl md:pr-44">
@@ -71,7 +72,7 @@ export default function Page() {
       <p className="mb-10 mt-15 text-gray-700 md:w-2/3 text-lg md:text-2xl md:mr-8 text-justify">
         During the process of making the login system I had the opportunity to become more familiar with project planning. I quickly realised that
         the task I had set for myself was in fact pretty damn big. After a bit of research I settled on a combination of Jira and Notion. Using Jira
-        drastically increased my work rate, as I quickly learnt to what to priorise and what to leave for later. A gantt chart overview helped me
+        drastically increased my work rate, as I quickly learnt to what to prioritise and what to leave for later. A gantt chart overview helped me
         settle on the overall direction of my work, and plan my weeks out.
       </p>
 

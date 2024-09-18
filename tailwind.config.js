@@ -8,7 +8,6 @@ module.exports = {
             additional: '#25312f'
           },
           fontFamily: {
-            body: ['playfairDisplay', 'sans-serif'],
           },
         },
       },

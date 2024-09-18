@@ -1,28 +1,52 @@
-export default function Page() {
+'use client'
+
+import Image from 'next/image';
+import { source_serif } from '../fonts';
+
+export default function AboutPage() {
   return (
-    <div className="flex items-center justify-center min-h-screen p-4 text-2xl">
-      <div className="flex px-32">
-        {/* Left column - Text content */}
-        <div className="w-full md:w-1/2 pr-8">
-          <p className="text-3xl">
-            Kia Ora, I&#39;m Matthew Lee
-          </p>
-          <p className="mt-5 md:mt-20 text-lg text-justify">
+    <>
+      {/* Main section with image and text */}
+      <section className="relative h-screen bg-white">
+        {/* Text container overlapping the image */}
+        <div className="absolute left-0 top-1/4 md:top-1/4 flex items-center px-6 sm:px-8 md:px-10 lg:px-16 z-10">
+          <div className="bg-white/70 p-6 rounded-md inline-block">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
+              <span className="font-bold">kia ora,</span> <br /> my name is matthew lee
+            </h1>
+          </div>
+        </div>
+
+        {/* Image positioned absolutely on the right */}
+        <div className="absolute top-0 right-0 h-full w-full md:w-2/3 z-0">
+          <Image
+            src="/images/about.jpg" // Replace with the correct path
+            alt="Background event"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+            className="object-cover"
+          />
+        </div>
+      </section>
+
+      {/* Full-width paragraph below the existing section */}
+      <div className={`${source_serif.className} w-full px-6 md:px-48 lg:px-50 py-12`}>
+      <div className="text-justify max-w-4xl mx-auto">
+          <p className="text-lg mb-4">
             I&#39;m a dedicated and passionate individual with a strong interest in technology and innovation. 
-            I thrive in dynamic environments where I can apply my skills to solve complex problems and contribute to meaningful projects. 
-            <br/><br/>
-            <strong>
-            With a blend of technical expertise and hands-on experience, I enjoy tackling new challenges
-            and continuously growing as both a developer and a team player.</strong>
-            <br/><br/>
+            I thrive in dynamic environments where I can apply my skills 
+            to solve complex problems and contribute to meaningful projects. 
           </p>
-          <p className="text-lg">
+          <p className="text-lg mb-4">
+            With a blend of technical expertise and hands-on experience, I enjoy tackling new challenges
+            and continuously growing as both a developer and a team player.
+          </p>
+          <p className="text-lg mb-8">
             Feel free to take a look around my website at some of the projects I&#39;ve done,
             but if you&#39;d rather a traditional Cover Letter and CV, I&#39;ve got them here:
           </p>
-          
-          {/* Links to CV and Cover Letter */}
-          <div className="flex mt-4 space-x-8">
+          <div className="flex justify-center mt-4 space-x-8">
             {/* CV Link */}
             <a href="/content/CV Matthew Lee.pdf" target="_blank" className="flex items-center">
               <img 
@@ -44,25 +68,8 @@ export default function Page() {
             </a>
           </div>
         </div>
-
-        {/* Right column - Image */}
-        <div className="w-full md:w-1/2 flex flex-col items-center mt-16">
-          <img 
-            src="/images/about.jpg" 
-            alt="Profile Image" 
-            className="w-2/3 h-auto"
-          />
-          
-          {/* Outside work paragraph */}
-          <p className="text-sm w-[80%] mt-4 text-justify">
-            Outside of my work, I love staying active and creative. Whether it&#39;s catching waves, 
-            hitting the slopes, or capturing the perfect shot through a camera,
-            I&#39;m always looking for new ways to challenge myself. I&#39;ve even dabbled in modeling... 
-            These passions keep me grounded and energized, giving me a fresh perspective that 
-            I like to bring to everything I do.
-          </p>
-        </div>
       </div>
-    </div>
+    </>
   );
 }
+

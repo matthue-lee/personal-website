@@ -87,3 +87,19 @@ body {
 .image-container {
   flex: 1; /* Allow the image container to grow if needed */
 }
+
+.thin-underline {
+  position: relative;
+  display: inline-block; /* Ensure the element has layout */
+}
+
+.thin-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust this for the margin between text and underline */
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust thickness */
+  background-color: currentColor; /* Match the underline color to the text color */
+  visibility: visible; /* Make sure the underline is visible */
+}
