@@ -11,7 +11,7 @@ export default function AboutPage() {
         {/* Text container overlapping the image */}
         <div className="absolute left-0 top-1/4 md:top-1/4 flex items-center px-6 sm:px-8 md:px-10 lg:px-16 z-10">
           <div className="bg-white/70 p-6 rounded-md inline-block">
-            <h1 className="text-3xl md:text-5xl lg:text-xl text-gray-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
               <span className="font-bold">kia ora,</span> <br /> my name is matthew lee
             </h1>
           </div>
@@ -37,11 +37,11 @@ export default function AboutPage() {
             I thrive in dynamic environments where I can apply my skills 
             to solve complex problems and contribute to meaningful projects. 
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl mb-4">
+          <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4">
             With a blend of technical expertise and hands-on experience, I enjoy tackling new challenges
             and continuously growing as both a developer and a team player.
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl mb-8">
+          <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8">
             Feel free to take a look around my website at some of the projects I&#39;ve done,
             but if you&#39;d rather a traditional Cover Letter and CV, I&#39;ve got them here:
           </p>
