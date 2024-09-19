@@ -5,6 +5,8 @@ import "./globals.css";
 import Link from "next/link";
 import PrelineScript from "@/components/PrelineScript";
 import { usePathname } from 'next/navigation';
+import { Analytics } from "@vercel/analytics/react"
+
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 const oswald = Oswald({ subsets:["latin"]})
@@ -91,6 +93,7 @@ export default function RootLayout({
               </div>
             </div>
           </footer>
+          <Analytics/>
           <PrelineScript/>
         </div>
       </body>
