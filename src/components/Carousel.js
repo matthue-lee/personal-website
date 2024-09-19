@@ -42,7 +42,7 @@ const Carousel = () => {
           <div className="embla__slide">
             <img
               className="embla__slide__img"
-              src="/images/mm-home.png"
+              src="/images/MM-home.png"
               alt="Home"
             />
           </div>

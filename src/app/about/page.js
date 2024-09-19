@@ -7,11 +7,11 @@ export default function AboutPage() {
   return (
     <>
       {/* Main section with image and text */}
-      <section className="relative h-screen bg-white">
+      <section className="relative h-screen flex flex-col bg-white">
         {/* Text container overlapping the image */}
         <div className="absolute left-0 top-1/4 md:top-1/4 flex items-center px-6 sm:px-8 md:px-10 lg:px-16 z-10">
           <div className="bg-white/70 p-6 rounded-md inline-block">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-xl text-gray-900 leading-tight">
               <span className="font-bold">kia ora,</span> <br /> my name is matthew lee
             </h1>
           </div>
