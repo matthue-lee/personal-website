@@ -48,6 +48,14 @@ export default function RootLayout({
                 >
                   Modelling
                 </a>
+                <a
+                  className={`font-medium text-sm md:text-lg focus:outline-none ${
+                    pathname === '/photography' ? 'text-accent thin-underline' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
+                  }`}
+                  href="/photography"
+                >
+                  Photography
+                </a>
                 {/* <a
                   className={`font-medium text-sm md:text-lg focus:outline-none ${
                     pathname === '/contact' ? 'text-accent thin-underline' : 'text-primary hover:text-accent dark:text-neutral-400 dark:hover:text-neutral-500'
