@@ -15,7 +15,7 @@ export default function Home() {
     >
       <div className="text-xl md:text-3xl lg:text-4xl flex justify-start p-5 md:p-24 text-gray-950">
         {/* Hi there, I&#39;m Matthew Lee, BE(Hons)/BSc(Computer Science).<br /> */}
-        A mixture of design and software projects I'm proud of.
+        A mixture of design and software projects I&#39;m proud of.
       </div>
       <div className="flex-grow flex flex-col items-center">
         {/* Large Card */}
