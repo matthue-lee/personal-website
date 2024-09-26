@@ -1,16 +1,19 @@
 'use client'
 
-import { Inter, Playfair_Display, Oswald, Source_Serif_4 } from "next/font/google";
+import { Inter, Playfair_Display, Oswald, Source_Serif_4, Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import PrelineScript from "@/components/PrelineScript";
 import { usePathname } from 'next/navigation';
 import { Analytics } from "@vercel/analytics/react"
+import 'prismjs/themes/prism-tomorrow.css'; // Choose any PrismJS theme you like
+
 
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 const oswald = Oswald({ subsets:["latin"]})
 const source_serif = Source_Serif_4({ subsets:["latin"]})
+const source_code = Source_Code_Pro({ subsets:["latin"]})
 
 export default function RootLayout({
   children,
