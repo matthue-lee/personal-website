@@ -59,7 +59,7 @@ export default function Home() {
 
   <a href="/underactuated-gripper" className="block rounded-xl p-4 cursor-pointer transform transition-transform duration-300 hover:scale-105">
     <div className="flex flex-col items-start">
-      <img className="w-full h-auto rounded-xl" src="/content/full assembly.png" alt="Card Image" style={{ maxHeight: '300px' }} />
+      <img className="w-full h-auto rounded-xl" src="/content/full assembly.png" alt="Card Image" />
       <div className="mt-4">
         <h3 className="text-lg font-bold text-additional">Underactuated Gripper</h3>
         <p className="mt-1 text-additional">Biomechanical analysis and anthropomorphic design</p>
