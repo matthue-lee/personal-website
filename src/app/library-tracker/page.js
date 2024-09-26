@@ -94,7 +94,7 @@ if filename.endswith(('.jpg', '.jpeg', '.png')):
                     <div className="flex-1 text-left pr-4 mb-4 md:mb-0">
                         <h2 className="text-2xl mb-2">Goals</h2>
                         <p className="text-lg">
-                            An avid reader, I've always wished I actually knew what books I owned. 
+                            An avid reader, I&#39;ve always wished I actually knew what books I owned. 
                             However, with over 300 books spread across a number of bookshelves, 
                             individually logging all of them was always out of the question. 
                             However, I figured if I could take a photo and automatically extract the title text off each spine, 
